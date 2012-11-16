@@ -1,0 +1,270 @@
+*{
+	-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+	
+}
+.pages{
+	position:absolute;
+	height:100%;
+	width:100%;	
+	margin:0;
+	padding:0;
+	left:0;
+	top:0;
+
+/* From web */
+background-image: linear-gradient(bottom, rgb(255,255,255) 35%, rgb(235,235,235) 68%);
+background-image: -o-linear-gradient(bottom, rgb(255,255,255) 35%, rgb(235,235,235) 68%);
+background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 35%, rgb(235,235,235) 68%);
+background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 35%, rgb(235,235,235) 68%);
+background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 35%, rgb(235,235,235) 68%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.35, rgb(255,255,255)),
+	color-stop(0.68, rgb(235,235,235))
+);
+}
+/* End From web */
+#div_menu{
+	padding-left:2%;
+	padding-right:2%;
+	width:96%;
+	float:left;	
+	
+	background-image: linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -o-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -moz-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -webkit-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -ms-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.25, rgb(15,150,132)),
+	color-stop(0.76, rgb(21,163,163))
+);
+}
+#info_box{
+	background-image: linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -o-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -moz-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -webkit-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -ms-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.25, rgb(15,150,132)),
+	color-stop(0.76, rgb(21,163,163))
+);	
+}
+#back_box{
+	background-image: linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -o-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -moz-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -webkit-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -ms-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.25, rgb(15,150,132)),
+	color-stop(0.76, rgb(21,163,163))
+);	
+}
+#level_title{
+	background-image: linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -o-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -moz-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -webkit-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+background-image: -ms-linear-gradient(bottom, rgb(15,150,132) 25%, rgb(21,163,163) 76%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.25, rgb(15,150,132)),
+	color-stop(0.76, rgb(21,163,163))
+);	
+}
+#div_play{
+	background-image: linear-gradient(bottom, rgb(48,135,161) 29%, rgb(75,147,194) 65%);
+background-image: -o-linear-gradient(bottom, rgb(48,135,161) 29%, rgb(75,147,194) 65%);
+background-image: -moz-linear-gradient(bottom, rgb(48,135,161) 29%, rgb(75,147,194) 65%);
+background-image: -webkit-linear-gradient(bottom, rgb(48,135,161) 29%, rgb(75,147,194) 65%);
+background-image: -ms-linear-gradient(bottom, rgb(48,135,161) 29%, rgb(75,147,194) 65%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.29, rgb(48,135,161)),
+	color-stop(0.65, rgb(75,147,194))
+);	
+}
+#level_info{
+	padding-top:15px;
+	float:right;
+	font-size:x-large;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFFFFF;	
+}
+#btn_info{
+	display:block;
+	padding:5px;	
+}
+#btn_back_info{
+	display:block;
+	padding:5px;	
+	
+}
+#info_text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#006600;	
+}
+.big_images{
+	display:block;
+	margin:0 auto;	
+
+}
+#game_title{
+	padding-top:100px;
+	text-align:center;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color:#096;
+}
+#div_startup{
+	background:#e0e3d2;	
+}
+#div_winner{
+	position:absolute;
+	height:100%;
+	width:100%;	
+	margin:0;
+	padding:0;
+	left:0;
+	top:0;
+	background:url(../img/winner.png) center scroll no-repeat;
+}
+
+.blur_back{
+	background:url(../img/background/disable_back.png);	
+	width:100%;
+	height:100%;
+	
+}
+
+#buttons{
+	margin:0 auto;	
+	width:200px;
+	text-align:center;
+	
+}
+.buttons{
+	display:block;
+	width:100px;
+}
+
+.buttons:hover{
+	-webkit-transform: scale(1.1); 
+}
+
+#btn_play{
+	margin:0 auto;	
+}
+#btn_back{
+	width:80px;	
+}
+.level_icons{
+	width:22%;
+	padding:10px;	
+}
+.level_icons:hover{
+	-webkit-transform: scale(1.01); 
+}
+#menu_icon{
+	padding:5px;
+}
+
+
+
+
+#buttons_winner{
+	width:300px;
+	margin:0 auto;	
+}
+.buttons_winner{
+	float:left;
+	display:block;
+	width:100px;	
+}
+.buttons_winner:hover{
+	-webkit-transform: scale(1.01); 
+}
+#container{
+	-webkit-perspective: 500;
+	display:block;
+}
+
+#container{
+	margin:auto auto;
+}
+
+.block {
+	float:left;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 1.5s;
+}
+
+.rotated, .mover .block:hover{
+	-webkit-transform: rotateY(180deg);
+}
+
+.block .front{
+	z-index: 50;
+}
+
+.block .back{
+	z-index: 10;
+}
+
+.rotated .back, .mover .block:hover .back{
+	z-index: 99;
+}
+
+.side{
+	position: absolute;	
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+	-webkit-backface-visibility: hidden;
+	-webkit-box-shadow: 0 2px 5px #ccc;
+}
+
+.back{
+	-webkit-transform: rotateY(180deg);
+}
+
+.wrapper{
+	-webkit-backface-visibility: hidden;
+}
+
+.goback{
+	-webkit-backface-visibility: hidden;
+	-webkit-box-shadow: 1px 1px 2px #8d996d;
+}
+
+.goback:before{
+	-webkit-backface-visibility: hidden;
+}
+
